@@ -4,6 +4,8 @@ As a fellow altoholic, I rely heavily on this addon to keep track of all my char
 
 I'm sharing this version for anyone else who might be in the same situation and wants a working Altoholic for TBC Anniversary.
 
+**Note:** This fix might not be perfect, but it is working for me at least. Your mileage may vary.
+
 ## What is Altoholic?
 
 Altoholic is a comprehensive addon that helps you manage multiple characters across your World of Warcraft account. It tracks:
