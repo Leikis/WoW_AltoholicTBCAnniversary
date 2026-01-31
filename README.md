@@ -38,7 +38,9 @@ Altoholic is a comprehensive addon that helps you manage multiple characters acr
 
 5. Restart World of Warcraft or type `/reload` if you're already in-game.
 
-6. Verify the addon is loaded by checking the AddOns menu on the character select screen.
+6. On the character select screen, open the AddOns tab and make sure the **Load out of date AddOns** checkbox is enabled.
+
+7. Verify the addon is loaded by checking the AddOns menu on the character select screen.
 
 ## Included Modules
 
