@@ -31,7 +31,7 @@ Altoholic is a comprehensive addon that helps you manage multiple characters acr
 
 3. Copy all the folders (Altoholic, Altoholic_Agenda, Altoholic_Characters, etc.) into your WoW AddOns directory:
    ```
-   World of Warcraft\_classic_era_\Interface\AddOns\
+   World of Warcraft\_anniversary_\Interface\AddOns\
    ```
 
 4. Make sure to copy all folders - Altoholic requires both the main addon folders and all the DataStore modules to function properly.
