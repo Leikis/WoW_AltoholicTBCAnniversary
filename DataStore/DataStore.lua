@@ -42,13 +42,16 @@ if not InterfaceOptions_AddCategory then
 	InterfaceOptions_AddCategory = function(frame)
 		-- In TBC Anniversary, try using the Settings API if available, otherwise no-op
 		if Settings and Settings.RegisterCanvasLayoutCategory then
-			local category = Settings.RegisterCanvasLayoutCategory(frame, frame.name)
 			if frame.parent then
 				local parentCategory = Settings.GetCategory(frame.parent)
 				if parentCategory then
-					category:SetParentCategory(parentCategory)
+					Settings.RegisterCanvasLayoutSubcategory(parentCategory, frame, frame.name)
+					return
 				end
 			end
+			
+			local category = Settings.RegisterCanvasLayoutCategory(frame, frame.name)
+			category.ID = frame.name
 			Settings.RegisterAddOnCategory(category)
 		end
 	end
